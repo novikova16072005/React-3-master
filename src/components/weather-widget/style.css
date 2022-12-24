@@ -1,0 +1,34 @@
+/* https://neumorphism.io/#e0e0e0 */
+.widget-weather {
+  width: 600px;
+  box-sizing: border-box;
+  aspect-ratio: 1 / 0.4;
+  border-radius: 57px;
+  background: #2f2f44;
+  -webkit-box-shadow: 3px 3px 15px 8px rgba(0,0,0,0.75);
+  -moz-box-shadow: 3px 3px 15px 8px rgba(0,0,0,0.75);
+  box-shadow: 3px 3px 15px 8px rgba(0,0,0,0.75);
+  padding: 57px;
+  color: whitesmoke;
+}
+
+.widget-weather > .ww-coord {
+  width: 37.5%;
+  display: grid;
+  grid-template-columns: 70% 30%;
+  letter-spacing: 2.5px;
+}
+
+.widget-weather > .ww-place {
+  width: 51.5%;
+  display: grid;
+  grid-column-gap: 2%;
+  grid-template-columns: 2fr 2fr;
+}
+
+.widget-weather > .ww-weather {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  padding-top: 10px;
+}
